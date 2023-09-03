@@ -1,0 +1,1 @@
+const myText = "JavaScript is amazing";
