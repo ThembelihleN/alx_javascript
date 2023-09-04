@@ -1,2 +1,2 @@
-const multi = "C is fun\nPython is cool\nJavascript is amazing";
+const multi = "C is fun\nPython is cool\nJavaScript is amazing";
 console.log(multi)
