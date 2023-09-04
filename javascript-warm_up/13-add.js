@@ -1,6 +1,5 @@
-function add(a, b){
-  return a + b
+const result = add(5, 7);
+function add(a, b) {
+  return a + b;
 }
-
-const result = add(4, 85);
-console.log(result)
+console.log(result); 
