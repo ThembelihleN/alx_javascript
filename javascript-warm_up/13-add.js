@@ -2,5 +2,5 @@ function add(a, b){
   return a + b
 }
 
-const result = add(3, 5);
-console.log(result)
+//const result = add(3, 5);
+console.log(add(3, 5))
