@@ -1,5 +1,5 @@
-const result = add(5, 7);
+const result = add(4, 85);
 function add(a, b) {
   return a + b;
 }
-console.log(result); 
+console.log(add); 
