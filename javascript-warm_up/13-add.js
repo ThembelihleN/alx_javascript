@@ -1,6 +1,7 @@
-const add = function (a, b){
+function add(a, b){
   return a + b;
 }
 
+add(4+85)
 
 
