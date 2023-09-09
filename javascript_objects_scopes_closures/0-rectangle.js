@@ -1,4 +1,4 @@
-const r1 = new Rectangle();
-class Rectangle{
-   
+class Rectangle {
+
 }
+const Rectangle = new Rectangle
