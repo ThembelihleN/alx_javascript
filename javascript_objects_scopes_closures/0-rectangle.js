@@ -1,4 +1,3 @@
-class Rectangle {
-
+class Rectangle{
+    
 }
-const Rectangle = new Rectangle
