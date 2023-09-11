@@ -2,14 +2,12 @@
 //A rectangle class
 class Rectangle{
     constructor(w,h){
-        this.width = w
-        this.height = h
-        if ( w || h <= 0) {
-            const emptyObject = Object.create(null);
-        }        
+        if ( w > 0 && h > 0) {
+            this.width = w;
+            this.height = h;
+        }
     }
 }
-
 //module for exportation
 module.exports = Rectangle
 
