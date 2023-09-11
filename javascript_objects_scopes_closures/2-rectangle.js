@@ -1,3 +1,4 @@
+#!/usr/bin/node
 //A rectangle class
 class Rectangle{
     constructor(w,h){

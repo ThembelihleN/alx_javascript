@@ -1,3 +1,4 @@
+#!/usr/bin/node
 //Another rectangle class
 
 class Rectangle{
@@ -6,9 +7,12 @@ class Rectangle{
         this.height = h
     }
 }
-//module for exportation
-module.exports = Rectangle
+if (w || h <= 0){
+    const emptyObject = Object.create(null);
+}
 
 const instance = new print(x)
 console.log(instance.emptyObject)
-//const emptyObject = Object.create(null);
+
+//module for exportation
+module.exports = Rectangle
