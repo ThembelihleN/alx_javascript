@@ -3,13 +3,20 @@
 
 class Rectangle{
     constructor(w,h){
-        if (w <= 0 || h <= 0){
+        if ( w > 0 && h > 0) {
+            this.width = w;
+            this.height = h;
+
+        //if (w <= 0 || h <= 0){
             //if w or h is <=, create an empty object
-            return this;
+            //return this;
         }
-        const instance = new print("x")
+    }
+    print(){
+        return this
     }
 }
+const instance = new print("x")
 
 
 //module for exportation
