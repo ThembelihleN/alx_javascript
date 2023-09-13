@@ -12,12 +12,7 @@ class Rectangle{
             //return this;
         }
     }
-    print(){
-        return this
-    }
 }
-const instance = new print("x")
-
-
+const instance =new print("x")
 //module for exportation
 module.exports = Rectangle
