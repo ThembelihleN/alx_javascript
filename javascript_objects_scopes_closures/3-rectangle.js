@@ -15,7 +15,7 @@ module.exports = class Rectangle {
   };
 
 //module for exportation
-module.exports = Rectangle
+//module.exports = Rectangle
 
 
 /*//#!/usr/bin/node
