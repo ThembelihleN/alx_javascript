@@ -5,4 +5,4 @@ const fs =  require('fs');
 
 const url = 'http://loripsum.net/api'
 
-request.get(url).pipe(fs.createWriteStream('response.json'))
+request.get(url).pipe(fs.createWriteStream('response.html'))
