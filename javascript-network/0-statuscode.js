@@ -5,7 +5,7 @@ req.get('https://intranet.alxswe.com/', {encoding: 'utf-8'})
 .on('response', response => {
     console.log("code: " + response.statusCode);
 })
-.catch('error', error => {
+.on(error => {
     // Handle errors
     console.error(error);
   });
