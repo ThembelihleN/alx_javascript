@@ -3,5 +3,5 @@
 const req =  require('request');
 req.get('https://intranet.alxswe.com/status', {encoding: 'utf-8'})
 .on('response', response => {
-    console.log(response.statusCode);
+    console.log("code:" + response.statusCode);
 })
