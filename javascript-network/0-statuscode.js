@@ -7,7 +7,7 @@ request(url, function (error, response){
     if (error){
         console.error(error);
 }
-    console.log('code: ', response + response.statusCode);
+    console.log('code: ' + response.statusCode);
 
 });
 
