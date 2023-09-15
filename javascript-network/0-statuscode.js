@@ -1,13 +1,12 @@
 //A script that displays the status code of a GET request
 
 const req =  require('request');
-req.get('https://intranet.alxswe.com/', {encoding: 'utf-8'})
-.on('response', response => {
+req('https://intranet.alxswe.com/', function (error, response)){
     if (error){
-   console.error(error);
-}else{
-    console.log('code: ' + response.statusCode);
+        console.error(error);
 }
-})
+    console.log('code: ', response + response.statusCode);
+
+}
 
 
