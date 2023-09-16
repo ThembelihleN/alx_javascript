@@ -3,9 +3,8 @@
 const request =  require('request');
 const url = process.arg[2]
 
-request.get(url, {encodin: "utf-8"})
+request.get(url, {encoding: "utf-8"})
 .on("response", (response) => {
-    console.log('code: ' + response.statusCode);
-
+    console.log("code: " + response.statusCode);
 });
 

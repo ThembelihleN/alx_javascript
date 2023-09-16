@@ -1,9 +1,10 @@
 //write a script that computes the number of tasks complteed by the user.
 
 const request = require ('request');
+const url = process.arg[2]
 
-const url = 'https://jsonplaceholder.typicode.com/todos'
-
-request.get(url);{
-    console.log()
-}
+request.get(url, function (userId, completed){
+    if (id.completed === true){
+        return completed + 1;
+    }
+})
