@@ -1,15 +1,15 @@
 //Closure scope chain
 
-globalVariable = "welcome";
+globalVariable = "Welcome";
 
 function outer(){
     alert(globalVariable);
     course = "Holberton";
     function inner(){
-        alert(globalVariable + course);
+        alert(globalVariable + " " + course);
         exclamation = "!";
         function inception(){
-            alert(globalVariable, course, exclamation)
+            alert(globalVariable +" "+ course + exclamation)
         }
         inception();
     }

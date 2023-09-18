@@ -2,7 +2,7 @@
 
 function createClassRoom(numbersOfStudents){
     function studentSeat(seat){
-        return studentSeat;
+        return seat;
     }
     students = []
     while (numbersOfStudents > 0){
@@ -10,3 +10,4 @@ function createClassRoom(numbersOfStudents){
         return students;
     }
 }
+const classRoom = createClassRoom(10);
