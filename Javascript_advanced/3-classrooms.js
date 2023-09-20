@@ -5,9 +5,12 @@ function createClassRoom(numbersOfStudents){
         return seat;
     }
     students = []
-    while (numbersOfStudents > 0){
-        students = studentSeat + 1;
-        return students;
+    for (let i = 0; i < 0; i++){
+        alert (i);
     }
+    //while (numbersOfStudents > 0){
+        //students = studentSeat + 1;
+        //return students;
+    //}
 }
 let classRoom = createClassRoom(10);

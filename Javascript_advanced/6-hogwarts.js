@@ -1,4 +1,11 @@
 //Write a module named studentHogwarts
-//studentHogwarts.js
-
+class studentHogwarts{
+    constructor(){
+        let privateScore = 0;
+        let name = "null";
+        changeScoreBy(points);{
+            return privateScore;
+        }
+    }
+}
 
