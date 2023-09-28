@@ -3,12 +3,11 @@
 const request =  require('request');
 const url = process.arg[2];
 
-request.get(url, (error, response,body) => {
+request.get(url, (error, response) => {
     if (error){
         console.error('Error:', error);
     }
     else{
         console.log("code: " + response.statusCode);
     }
-})
-
+});
