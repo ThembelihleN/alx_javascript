@@ -20,12 +20,8 @@
             const firstname = document.getElementById('firstname').value;
             const email = document.getElementById('email').value;
             
-            if (firstname){
-                document.cookie = `firstname=${firstName};`;
-            };
-            if (email) {
-                document.cookie = `email=${email};`;
-            }
+            document.cookie = `firstname=${firstName};`;
+            document.cookie = `email=${email};`;
         }
 
         function showCookies(){
