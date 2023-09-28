@@ -2,9 +2,7 @@
 
 const request = require ('request');
 const fs =  require('fs');
-
-const url = process.arg[2]
-
+const url = process.argv[2]
 //request.get(url).pipe(fs.createWriteStream('response.html'))
 const file = process.argv[3];
 request.get(url, (error, response, body) => {
