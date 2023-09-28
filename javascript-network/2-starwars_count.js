@@ -2,11 +2,10 @@
 
 const request = require('request');
 const id  = 18;
-const url = process.argv
-
+const url = process.argv[2]
 
 //Use the function to count the number of items
-request(url, function (error, response, body){
+request(url, (error, response, body) =>{
     if (error){
         console.error('Error:', error);
     }
