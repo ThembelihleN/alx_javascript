@@ -1,8 +1,9 @@
 //write a script that prints the number of movies where the character “Wedge Antilles” is present.
 
 const request = require('request');
-const url = process.arg[2]
-const id  = 18
+const id  = 18;
+const url = process.argv
+
 
 //Use the function to count the number of items
 request(url, function (error, response, body){
