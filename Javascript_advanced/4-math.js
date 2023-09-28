@@ -1,16 +1,18 @@
 //complex closure
 
-function divideBy(firstNumber, secondNumber){
-    dev = secondNumber / firstNumber;
-    return dev;
+function divideBy(firstNumber){
+    return function(secondNumber){
+        return secondNumber / firstNumber;
+    };
 }
 
-function addBy(firstNumber, secondNumber){
-    sum = firstNumber + secondNumber;
-    return sum;
+function addBy(firstNumber){
+    return function (secondNumber){
+        return secondNumber + firstNumber;
+   }  
 }
 
-const addBy100 = divideBy(100);
+const addBy100 = addBy(100);
 const addBy1000 = addBy(1000);
-const divideByBy10 = divideBy(10);
-const divideByBy100 = divideBy(100);
+const divideBy10 = divideBy(10);
+const divideBy100 = divideBy(100);
