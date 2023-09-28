@@ -2,13 +2,16 @@
 
 const request = require('request');
 const url = process.arg[2]
-const count  = films.filter(18).length;
+const id  = 18
 
 //Use the function to count the number of items
 request(url, function (error, response, body){
-    const object = JSON.parse
     if (error){
-        console.error(error);
+        console.error('Error:', error);
     }
-    //const object = JSON.parse
+    const data = JSON.parse(body);
+    const includeWedge = data.results.filter(movie => {
+        return movie.characters.some(characterUrl => characterUrl.includes('/' + id + '/'));
+    })
+    console.log(includeWedge.length)
    })
