@@ -1,0 +1,16 @@
+<!-- a JavaScript program that demonstrates the creation, appending, and removal of elements using the DOM.-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Creating and Removing Elements</title>
+</head>
+<body>
+  <div id="container"></div>
+  <script>
+    const cont = document.getElementById('container');
+    const newPara = document.createElement('p');
+    newPara.textContent = 'This is my new paragraph.';
+    cont.appendChild(newPara) 
+  </script>
+</body>
+</html>
