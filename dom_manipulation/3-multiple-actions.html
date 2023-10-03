@@ -10,7 +10,22 @@
     const cont = document.getElementById('container');
     const newPara = document.createElement('p');
     newPara.textContent = 'This is my new paragraph.';
-    cont.appendChild(newPara) 
+    cont.appendChild(newPara);
+    
+    const btn = document.createElement('button');
+    btn.innerText = 'hide/show';
+    cont.appendChild(btn);
+    let visible = true;
+    
+    btn.addEventListener('click',() => {
+        if (visible){
+            newPara.style.display = 'none'
+        }
+        else{
+            newPara.style.display = 'block'
+        }
+        visible = !visible
+    });
   </script>
 </body>
 </html>
